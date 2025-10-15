@@ -1,0 +1,16 @@
+input[type="range"].slider-thumb::-webkit-slider-thumb {
+  appearance: none;
+  height: 28px; /* 👈 كبر الدائرة */
+  width: 28px;
+  background-color: #d1d1d1;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+input[type="range"].slider-thumb::-moz-range-thumb {
+  height: 28px;
+  width: 28px;
+  background-color: #d1d1d1;
+  border-radius: 9999px;
+  cursor: pointer;
+}
