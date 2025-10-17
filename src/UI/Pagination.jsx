@@ -1,4 +1,4 @@
-import icon from "../assets/icons/icon-right.svg";
+import icon from "../assets/icons/Icon-Right.svg";
 export default function ProductsFooter({
   prevPage,
   nextPage,
@@ -28,3 +28,4 @@ export default function ProductsFooter({
     </div>
   );
 }
+
